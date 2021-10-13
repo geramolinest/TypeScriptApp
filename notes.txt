@@ -1,0 +1,22 @@
+---First step---
+npm init -y ---> Initialize node project
+
+--Second step----
+npm i --save-dev typescript
+
+--- Third step -----
+node_modules/.bin/tsc --init
+
+
+--Step four ---
+change in tsconfig.json: 
+"rootDir": "./src",
+"outDir": "./dist", 
+
+**Add tools to typescript
+npm i --save-dev @types/node
+
+
+-- Step five -----
+** For remove folder dist
+npm i --save-dev rimraf 
